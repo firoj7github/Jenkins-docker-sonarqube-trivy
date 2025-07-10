@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'laravel-jenkins'                      // Corrected variable name
-        DOCKER_CREDENTIALS_ID = 'dockerhub'                 // Jenkins credentials ID
+        IMAGE_NAME = 'laravel-jenkins'
+        DOCKER_CREDENTIALS_ID = 'dockerhub'
     }
 
     stages {
